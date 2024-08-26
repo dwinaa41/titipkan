@@ -18,37 +18,6 @@ Route::get('/about', function () {
     ]);
 });
 
-Route::get('/about', function () {
-    return view('about', [
-        "title" => "about",
-        "nama" => "Dwina",
-        "email" => "dwina@gmail.com",
-        "image" => "biner.png"
-    ]);
-});Route::get('/about', function () {
-    return view('about', [
-        "title" => "about",
-        "nama" => "Dwina",
-        "email" => "dwina@gmail.com",
-        "image" => "biner.png"
-    ]);
-});Route::get('/about', function () {
-    return view('about', [
-        "title" => "about",
-        "nama" => "Dwina",
-        "email" => "dwina@gmail.com",
-        "image" => "biner.png"
-    ]);
-});Route::get('/about', function () {
-    return view('about', [
-        "title" => "about",
-        "nama" => "Dwina",
-        "email" => "dwina@gmail.com",
-        "image" => "biner.png"
-    ]);
-});
-
-
 Route::get('/blog', function () {
     $blog_posts =[
         [
